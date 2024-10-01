@@ -9,11 +9,6 @@ permalink: /research/
 <!-- Sidebar -->
 <div id="sidebar-container" class="sidebar-expanded d-none d-md-block col-3">
     <span class="list-group sticky-top sticky-offset">
-        <a href="#publications" class="nav-link side-link js-scroll-trigger">➤   Publications</a>
-        <a href="#teaching" class="nav-link side-link js-scroll-trigger">➤   Teaching</a>
-        <a href="#map" class="nav-link side-link js-scroll-trigger">➤   Talks</a>
-
-        <hr style="width:60%; background:#02456F; margin-top: 0px; margin-bottom:10px;">
         {% include sticky_side.html %}
 
     </span>
@@ -28,8 +23,8 @@ permalink: /research/
     <div class="container" style="text-align:center; margin-bottom:40px;">
       <div class="row" id="about">
         <div class="col-md-10">
-        <h2 class="page-title">Research & Scientific Interests</h2>
-        <h3 class="page-subtitle text-muted">A few words about my research.</h3>
+        <h2 class="page-title">Research</h2>
+        <h3 class="page-subtitle text-muted">Publications & Scientific Interests.</h3>
         <hr style="width:40%; background:#02456F;">
         </div>
       </div>
@@ -58,8 +53,8 @@ permalink: /research/
     <div class="row">
       <div class="col-md-10">
         <div class="about-text">
-          As part of the <a href="http://www.aramislab.fr/">Aramis Lab</a>, located at the <a href="https://icm-institute.org/fr/">Paris Brain Institute</a> at the Pitié Salpétrière, in Paris, my research explores new ways to understand the brain evolution, in particular the dynamics of neurodegenerative diseases, thanks to Machine Learning tools.
-          The goal of this research is to help designing clinical trials suited for neurodegenerative diseases.
+          My research focuses on developing new approaches to understanding disease progression, particularly the dynamics of neurodegenerative diseases, using machine learning tools. 
+          The aim is to design better clinical trials tailored specifically for neurodegenerative conditions.
         </div>
 
         <br><br>
@@ -67,19 +62,19 @@ permalink: /research/
         <div class="about-text">
           The goals of my research are three-fold:
           <ul>
-            <li>Get a better understanding of the spatio-temporal patterns of brain alterations, especially by developping numerical models of the disease progression, based on longitudinal data,</li>
-            <li>Characterize individual patterns of progression by analyzing the impact of cofactors (gender, genes, socio-demographical information), and, by predicting individual diagnosis and disease stage, up to 5 years in advance,</li>
-            <li>Detecting the moment at which the patients are the most likely to respond to drugs in clinical trials. This implies to detect the biomarkers that are most likely to detect the drug effect.</li>
+            <li>Gain a deeper understanding of the spatio-temporal patterns of brain alterations, particularly through the development of numerical models of disease progression based on longitudinal data,</li>
+            <li>Characterize individual progression patterns by analyzing the influence of cofactors such as gender, genetics, and socio-demographic information, while predicting individual diagnoses and disease stages up to five years in advance.,</li>
+            <li>Identify the optimal time for patients to respond to drugs in clinical trials, which involves detecting the biomarkers most likely to reveal drug effects.</li>
           </ul>
         </div>
 
         <br><br>
 
         <div class="about-text">
-          To this end, I have proposed multiple methological enhancements to existing methods (see <a href="#publications">Publications</a>). Most of them rely on a variety of tools and software I have developped :
+          To this end, I have introduced several methodological improvements to existing approaches (see <a href="#publications">Publications</a>). Most of them are based on a range of tools and software I have developed, in particular:
           <ul>
-            <li><b>Leasp:</b> Estimation of the group-average and individual spatio-temporal trajectories. Well suited for the estimation of spatially distributed data. C++ 14. <a href="https://gitlab.icm-institute.org/aramislab/leasp">Website</a>.</li>
             <li><b>Leaspy:</b> <a href="https://gitlab.com/icm-institute/aramislab/leaspype">LEArning Spatiotemporal Patterns in Python</a>. Enables to estimate the diseae progression for various biomarkers at the average and individual level. Python 3.7.</li>
+            <li><b>Leaspype:</b> a software wrapper around Leaspy, dedicated to forecast disease progression and run statistical analysis to enhance clinical trials with prognostic enrichment (with procova methogology)</li>
             <li><b>Digital Brain:</b> Web application to vizualise the group-average and invidiaul evolution of the cortical thickness, the PET-FDG, the hippocampus mesh and the cognitive scores, during the course of Alzheimer's Disease. <a href="http://digital-brain.org/">Digital-Brain</a></li>
           </ul>
         </div>
@@ -95,7 +90,7 @@ permalink: /research/
     <!-- PUBLICATIONS SECTION -->
     <div class="row" id="publications" style="margin-top:70px;">
       <div class="col-md-10">
-        <h2 class="title">Publications</h2>
+        <h2 class="title">Main publications</h2>
         <p>Click on the image (or title for phone-users) to read the abstract</p>
       </div>
     </div>
@@ -115,7 +110,7 @@ permalink: /research/
             <div class="material-project publi-modal" href="#{{pub.id}}" data-toggle="modal">
               <span class="publi-title">{{pub.title}}</span>
             </div>
-            <div class="publi-info">In <i>{{pub.in}}</i>. {{pub.year}}. <a href="{{site.baseurl}}/{{pub.pdf}}">PDF</a></div>
+            <div class="publi-info">In <i>{{pub.in}}</i>. {{pub.year}}. <a href="{{site.baseurl}}/{{pub.pdf}}">PDF</a> & <a href="{{pub.link}}" target="_blank"> Link to publication</a></div>
             <div class="publi-authors">{{pub.authors}}</div>
           </div>
         </div>

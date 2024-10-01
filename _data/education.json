@@ -1,23 +1,23 @@
 [
   {
     "title": "Postdoctoral fellow",
-    "period": "From 2020",
+    "period": "2020 - 2021",
     "description": "Development of methods to improve clinical trials for neurodegenerative diseases <a href='https://icm-institute.org/'>Paris Brain Institute</a>  - <a href='https://www.inria.fr'>Inria</a>" ,
-    "img": "img/education/icm.jpg",
+    "img": "img/education/inria.png",
     "tags": ["Advanced Machine Learning", "Deep Learning", "Statistical Learning", "From Theory to Practice", "Python Library", "Clinical Trials"]
   },
   {
     "title": "PhD - ICM x CMAP x EDMH",
     "period": "2016 - 2020",
     "description": "Statistical learning of spatio-temporal trajectories based on longitudinal data - application to neurogedenerative diseases. <a href='https://icm-institute.org/'>ICM</a> - <a href='https://portail.polytechnique.edu/cmap/fr'>CMAP</a> - <a href='https://www.fondation-hadamard.fr/fr/edmh/presentation'>EDMH</a>" ,
-    "img": "img/education/m2.jpg",
+    "img": "img/education/icm.png",
     "tags": ["Machine Learning", "Statistical Learning", "Riemannian Geometry", "Deep Learning", "MCMC Methods", "EM-like algorithms"]
   },
   {
-    "title": "Master Data Science - Paris Saclay University",
+    "title": "Master Data Science - Institut Polytechnique de Paris",
     "period": "2015 - 2016",
     "description": "Theoretical courses in maths, various machine-learning projects and hackathons-like sessions. Ecole Polytechnique, Université Paris-Saclay, Télécom Paris, ENSAE. <a href='https://datascience-x-master-paris-saclay.fr/'>Website.</a>",
-    "img": "img/education/saclay.png",
+    "img": "img/education/ipp.png",
     "tags": ["Advanced Machine Learning", "Convex optimization", "Deep Learning", "Statistical Learning", "Compressed Sensing", "Hackathons"]
   },
   {

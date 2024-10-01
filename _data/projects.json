@@ -1,32 +1,23 @@
 [{
-	"id": "candidats",
-	"title": "Les Candidats 2017",
-	"subtitle": "Candidates comparison for the French political elections",
-	"img": "img/projects/candidats2017.jpg",
+	"id": "climate_fresk",
+	"title": "Climate Fresk (La Fresque du Climat)",
+	"subtitle": "3 hour workshop to get the fundamentals behind climate change",
+	"img": "img/projects/climate.jpg",
 	"description": {
 		"Description": [
-			"Website about the french political elections in 2017. Based on user-defined priorities (environment, economy,  education, ...), it provides a personalized survey to find one's most appropriage candidate",
-			"It also includes a comparison of candidates opinions on a broad range of topics, as well as the candidates biographies.",
-			"The website was visited by more than ... unique users during the last two weeks of the election first round. Except from the technical part that was done on my own, the content and the information were gathered with <a href=''>Louise Hombert</a>."
-		],
-		"Technical details": [
-			"The front-end has been designed thanks to Bootstrap to make the website responsive (...% of the user ), and, thanks to <a href='https://surveyjs.io/Overview/Library/'>SurveyJS</a> library that provide open source survey library. ",
-			"The back-end has been built with nodeJS, communicating with a MongoDB database hosted on <a href='https://mlab.com/'>mlab</a>.",
-			"The final project is open-source, hosted <a href='https://github.com/Symcies/LesCandidats'> here on Github</a>. No information were collected about the user - except for the website activity, thanks to Google Analytics."
+			"<a href='https://climatefresk.org/world/'>Climate Fresk</a> is an association which promotes a serious game to develop general knowledge about the climate change.",
+			
 		]
 	},
-	"link": "https://lescandidats2017.fr",
-	"date": "First semester of 2017",
+	"link": "https://climatefresk.org/world/",
+	"date": "Since 2019",
 	"tags": [
-		"Politics",
-		"Personalized survey",
-		"JavaScript",
-		"Node & Express",
-		"Bootstrap",
-		"SurveyJS",
-		"MongoDB"
+		"Climate change",
+		"Science",
+		"Serious game"
 	]
-}, {
+},
+	{
 	"id": "bimbamjob",
 	"title": "BimBamJob x Data For Good",
 	"subtitle": "SMS Chatbot for job seekers",
@@ -53,7 +44,8 @@
 		"Python",
 		"DialogFlow - Google Api"
 	]
-}, {
+}, 
+{
 	"id": "cashless",
 	"title": "Cashless App",
 	"subtitle": "Cashless application for the Double 9 Festival ",
@@ -115,5 +107,33 @@
 		"Digital models",
 		"Spatiotemporal models",
 		"Disease progression"
+	]
+}, {
+	"id": "candidats",
+	"title": "Les Candidats 2017",
+	"subtitle": "Candidates comparison for the French political elections",
+	"img": "img/projects/candidats2017.jpg",
+	"description": {
+		"Description": [
+			"Website about the french political elections in 2017. Based on user-defined priorities (environment, economy,  education, ...), it provides a personalized survey to find one's most appropriage candidate",
+			"It also includes a comparison of candidates opinions on a broad range of topics, as well as the candidates biographies.",
+			"The website was visited by more than ... unique users during the last two weeks of the election first round. Except from the technical part that was done on my own, the content and the information were gathered with <a href=''>Louise Hombert</a>."
+		],
+		"Technical details": [
+			"The front-end has been designed thanks to Bootstrap to make the website responsive (...% of the user ), and, thanks to <a href='https://surveyjs.io/Overview/Library/'>SurveyJS</a> library that provide open source survey library. ",
+			"The back-end has been built with nodeJS, communicating with a MongoDB database hosted on <a href='https://mlab.com/'>mlab</a>.",
+			"The final project is open-source, hosted <a href='https://github.com/Symcies/LesCandidats'> here on Github</a>. No information were collected about the user - except for the website activity, thanks to Google Analytics."
+		]
+	},
+	"link": "https://lescandidats2017.fr",
+	"date": "First semester of 2017",
+	"tags": [
+		"Politics",
+		"Personalized survey",
+		"JavaScript",
+		"Node & Express",
+		"Bootstrap",
+		"SurveyJS",
+		"MongoDB"
 	]
 }]

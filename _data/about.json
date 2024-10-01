@@ -1,32 +1,30 @@
 {
   "description" : [
-    "<b>I'm a Postdoctoral fellow in Machine Learning at the Paris Brain Institute</b>, developing methods & tools
-    to improve clinical trials for neurodegenerative diseases as Alzheimer's, Parkinson's and Huntington diseases.
-    I obtained my PhD in Machine Learning under the supervision of Stanley Durrleman and Stéphanie Allassonnière in January 2020,
-    as part of the <a href='https://portail.polytechnique.edu/cmap/fr'>Center of Applied Maths of Ecole Polytechnique </a> & <a href='http://www.aramislab.fr/'>Aramis Lab</a> at the <a href='https://icm-institute.org/fr/'>Paris Brain Institute</a>.",
+    "<b>I co-founded Qairnel</b>, where we equip pharmaceutical companies with cutting-edge solutions to maximize the success of their clinical trials targeting neurodegenerative diseases. Our key offerings include:
+    <ul>
+    <li>Advanced <a href='https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=dlgocecAAAAJ&sortby=pubdate&citation_for_view=dlgocecAAAAJ:4DMP91E08xMC'>artificial intelligence algorithms</a> designed to enhance drug detection</li>
+    <li>Access to prescreened patients, whom we track through the <a href='https://docteurmemo.fr'>Clinique du Docteur Memo</a>, a digital platform that helps individuals concerned about their memory — or that of their loved ones — understand and manage potential cognitive disorders.<ul>",
+    
+    "<b>Previously, I was a Postdoctoral fellow in Machine Learning at the Paris Brain Institute & Inria</b>, where I developed methods and tools to improve clinical trials for neurodegenerative diseases such as Alzheimer's, Parkinson's, and Huntington's diseases. I obtained my PhD in Machine Learning under the supervision of Stanley Durrleman and Stéphanie Allassonnière in January 2020, as part of the Center for Applied Mathematics at Ecole Polytechnique and the Aramis Lab at the Paris Brain Institute.",
 
-    "<b>My goal is to use my mathematical and coding skills to create impact where it matters.</b>
-    Beyond medical application, I love developing tools or sharing my knowledge in applications with motivating & positive impacts :
-    a chatbot for a Social-and-Solidarity company, a web-app to choose and analyze the political parties at the French election, a cashless app for a music festival, teaching at a Data Science Summer School, ...
-    I'm also the Deep Learning Lead Instructor of Data Science traning of Le Wagon, a company which teaches Machine Learning to students within a 9 week intensive program",
-
-    "My growing interest in climate and energy issues led me to be part of the Climate Collage association - also known as the <a href='http://fresqueduclimat.org/'>Fresque du Climat</a>."
+    "<b>I love using my mathematical & coding skills to create impactful solutions where it matters most.</b>
+    Beyond medical applications, I have developed tools and shared my knowledge in projects with motivating and positive impacts",
   ],
   "skills": [
     {
       "title": "Applied Maths",
       "img": "area-chart",
-      "tags": ["Machine Learning", "Deep Learning", "Statistical Learning", "Riemannian Geometry", "Bayesian Statistics", "EM-like Algorithms", "MCMC methods"]
+      "tags": ["Machine Learning", "Deep Learning", "CNN", "Statistical Learning", "Riemannian Geometry", "EM-like Algorithms", "MCMC methods"]
     },
     {
       "title": "Coding",
       "img": "code",
-      "tags": ["C++", "Python", "Git", "Pytorch", "React-Native", "Linux Environnements", "HTML/CSS", "JavaScript", "NodeJS", "Bootstrap", "scikit-learn", "Django", "Distributed computing"]
+      "tags": ["C++ 14", "Python", "Docker (compose)", "FastAPI", "Django", "Pytorch", "VueJS", "NodeJS", "scikit-learn"]
     },
     {
       "title": "Language",
       "img": "language",
-      "tags": ["French", "Ukrainian", "English", "Russian"]
+      "tags": ["French", "Ukrainian", "English"]
     }
   ]
 }
